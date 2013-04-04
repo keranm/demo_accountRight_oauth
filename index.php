@@ -44,9 +44,9 @@ $starttime = $startarray[1] + $startarray[0];
 //
 // *********************************************************************
 
-define('api_key',		'e3m4bd7z5v4f5fy59d2y7ykr'); // enter your MYOB Developer Key
-define('api_secret',	'n8HV3ku79Mua3y98T6DJMQaC'); // enter your MYOB Developer Secret
-define('redirect_url',	'http://localhost/login_sample/'); // enter the Redirect URL
+define('api_key',		'sybazvr4m2q9nq2k8gvsze3g'); // enter your MYOB Developer Key
+define('api_secret',	'uxgtUHrjR5ttJKN69gMWbJeD'); // enter your MYOB Developer Secret
+define('redirect_url',	'http://accountright-sample-oauth.herokuapp.com/'); // enter the Redirect URL
 // NOTE: this MUST match the url you used when registering for a key
 //       you can login to my.myob.com.au anytime and change the redirect url for testing/production
 define('api_url',		'https://api.myob.com/accountright/'); // NOTE: api is https not http
@@ -54,7 +54,7 @@ define('api_url',		'https://api.myob.com/accountright/'); // NOTE: api is https 
 //                  where xxx = ip address of network accessable Accountright install with API running
 define('api_scope',		'CompanyFile'); // You shouldn't need to change this
 
-define('base_url',		'http://localhost/login_sample');
+define('base_url',		'http://accountright-sample-oauth.herokuapp.com');
 
 // Because we are using sessions to manage our tokens, lets start the session engine
 session_start();
